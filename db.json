@@ -1,22 +1,20 @@
 {
-  "employees": [
-    {
-      "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
-    },
-    {
-      "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
-    }
-  ]
+  "themes": [{
+    "id": 1,
+    "themeTitle": "Теги",
+    "subThemes": [{
+        "id": 1,
+        "subThemeTitle": "Корневой элемент",
+        "content": "<html></html> корневой элемент html-документа",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "subThemeTitle": "Служебные теги",
+        "content": "<!—…—> комментарий",
+        "description": ""
+      }
+    ],
+    "timeForLearning": 30
+  }]
 }
